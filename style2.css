@@ -1,0 +1,25 @@
+body{
+font-family:sans-serif;
+}
+
+.header{
+ background-color: aliceblue;
+    height: 20%;
+    position: static;
+}
+
+.body{
+    background: red;
+    height:50%;
+    position: relative;
+}
+
+.footer{
+    font-family: monospace;
+    color:white;
+    font-size: 15px;
+    background-color: black;
+    height:30%;
+    position: fixed;
+    bottom: 0;
+}
