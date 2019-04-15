@@ -3,19 +3,29 @@ font-family:sans-serif;
 }
 
 .header{                     /* this should be at top(0) and shouldn't shift {position=fixed} this should also cover all the top part of the page {width=100%} and it should not expand to the whole page, only 20% */
-    background-color: blue;
+    background-color:greenyellow;
     position:fixed;
     top: 0;
     width:100%;
     height: 20%;
 }
 
+.header-logo{
+    position: relative;   /* relative means that it can change it's place accordinly*/
+    top: 13px;   /* This depends on the positon attribute */
+    float:left;
+    font-size: 20px;
+}
+.header-list li {        /* This is to remove bullets from the list present in the header division only */
+    list-style: none;
+    float:left;
+}
 /* this should be at middle(that is , start after the 20% of the page, from top) and shouldn't shift {position=fixed} this should also cover all the medium part of the page {width=100%} and it should not expand to the whole page, only 50% */
 
 .body{
-    background: red;
+    background:green;
     position: fixed;
-    top: 20%;
+    top:20%;
     height:50%;
     width: 100%;
 }
